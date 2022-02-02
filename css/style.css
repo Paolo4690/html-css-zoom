@@ -6,6 +6,7 @@
 
 body {
     background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
     color: #fff;
 }
 
@@ -15,11 +16,14 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
     position: fixed;
     top: 0;
     left: 0;
+
     width: 100vw;
-    height: 2rem;
+    height: 2.5rem;
+
     font-size: .8rem;
 }
 
@@ -37,3 +41,64 @@ span.txt-header {
     vertical-align: top;
 }
 /* HEADER  *//* HEADER  *//* HEADER  *//* HEADER  *//* HEADER  */
+
+
+/* FOOTER-NAV  *//* FOOTER-NAV  *//* FOOTER-NAV  *//* FOOTER-NAV  */
+footer nav {
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 5rem;
+
+    font-size: .8rem;
+    background-color: #222;
+}
+
+footer nav .nav-left {
+    display: flex;
+    align-items: center;
+}
+
+footer i.fa-chevron-up {
+    font-size: .6rem;
+    margin-right: .6rem;
+}
+footer i:not(.fa-chevron-up) {
+    font-size: 1.6rem;
+    margin: 0 .3rem;
+}
+
+.box-nav {
+    margin: 0 .5em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.txt-icon {
+    padding-top: .3rem;
+}
+
+.nav-center {
+    display: flex;
+    align-items: center;
+
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.fa-share-square {
+    color: #4bc800;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    background-color: #a4a4a4;
+    color: red;
+    
+}
