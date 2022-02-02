@@ -36,7 +36,18 @@ header .btn-header {
     padding: .3em .5em;
     border-radius: .3em;
     margin-right: .5rem;
+    cursor: pointer;
+    transition: all .5s;
 }
+
+header .btn-header:hover {
+    background-color: #7a7a7a;
+}
+
+header .btn-header:active {
+    background-color: #4a4a4a;
+}
+
 span.txt-header {
     vertical-align: top;
 }
@@ -103,6 +114,7 @@ footer nav .nav-left {
 footer i.fa-chevron-up {
     font-size: .6rem;
     margin-right: .6rem;
+    cursor: pointer;
 }
 
 footer i:not(.fa-chevron-up) {
@@ -115,6 +127,7 @@ footer i:not(.fa-chevron-up) {
     display: flex;
     flex-direction: column;
     text-align: center;
+    cursor: pointer;
 }
 
 .txt-icon {
@@ -139,5 +152,14 @@ footer i:not(.fa-chevron-up) {
     padding: 0 1.5rem;
     background-color: #a4a4a4;
     color: red;
-    
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.nav-right:hover {
+    background-color: #7a7a7a;
+}
+
+.nav-right:hover:active {
+    background-color: #a4a4a4;
 }
