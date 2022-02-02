@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* HEADER  *//* HEADER  *//* HEADER  *//* HEADER  *//* HEADER  */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 2rem;
+    font-size: .8rem;
+}
+
+header i {
+    font-size: 1rem;
+}
+
+header .btn-header {
+    background-color: #4a4a4a;
+    padding: .2em .3em;
+    border-radius: .3em;
+    margin-right: .5rem;
+}
+span.txt-header {
+    vertical-align: top;
+}
+/* HEADER  *//* HEADER  *//* HEADER  *//* HEADER  *//* HEADER  */
